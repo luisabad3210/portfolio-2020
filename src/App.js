@@ -1,10 +1,17 @@
-// import logo from './logo.svg';
 import './App.css';
+import Navigation from './components/nav';
 
 const App = () => {
+
+  const profile = {
+    firstName: 'Luis',
+    LastName: 'Abad',
+  }
+
   return (
     <div>
-      testing
+      <Navigation profile={profile}/>
+      Hello World
     </div>
   );
 }
