@@ -2,6 +2,14 @@ import React from 'react';
 import Profile from './images/profile-pic.png';
 import Resume from './images/resume.png';
 import Pdf from './images/resume.pdf';
+import ReactLogo from './images/badges/react.png'; 
+import NodeLogo from './images/badges/node.jpg';
+import JavascriptLogo from './images/badges/js.png';
+import HtmlLogo from './images/badges/html.png';
+import CssLogo from './images/badges/css.png';
+import GitLogo from './images/badges/git.png';
+import TerminalLogo from './images/badges/terminal.png';
+import UIUXLogo from './images/badges/uiux.png';
 
 const Content = ({profile}) => {
 
@@ -26,8 +34,30 @@ const Content = ({profile}) => {
                             </a>
                         </div>
                     </div>
-                    <div className='badges'><h2>Badges</h2></div>
-                    Portfolio 2020
+                    <div className='badges'>
+                        <h2>Skills</h2>
+                        <div className='badgesContainer'>
+                            <img className='rotate' src={ReactLogo} width='200px' height='200px'/>
+                            <img src={NodeLogo} width='200px' height='200px'/>
+                        </div>
+                    </div>
+
+                    <div className='badges'>
+                        <div className='badgesContainer2'>
+                            <div className='badgesContainerCenter'>
+                                <img src={JavascriptLogo} width='120px' height='120px'/>
+                                <img src={HtmlLogo} width='120px' height='120px'/>
+                                <img src={CssLogo} width='120px' height='120px'/>
+                            </div>
+                            
+                            <div className='badgesContainerCenter'>
+                                <img src={GitLogo} width='120px' height='120px'/>
+                                <img src={TerminalLogo} width='120px' height='120px'/>
+                                <img src={UIUXLogo} width='120px' height='80px'/>
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
 
                 <div className='contentRight'>
