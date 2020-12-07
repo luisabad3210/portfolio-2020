@@ -25,7 +25,7 @@ const Header = ({profile}) => {
                         <button className='headerBtn'>Videos</button>
                         <button className='headerBtn center'>More <img className='headerArrow' src={Arrow} /></button>
                         <div className='contactContainer' >
-                            <Contact />
+                            <Contact profile={profile}/>
                         </div>
                     </div>
                 </div>

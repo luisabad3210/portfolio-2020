@@ -17,7 +17,7 @@ const App = () => {
     contact: {
       phone: '(678) 365-6548',
       email: 'luisabad3210@gmail.com',
-      linkin: 'https://www.linkedin.com/in/luis-abad-a00180183/'
+      linkedin: 'https://www.linkedin.com/in/luis-abad-a00180183/'
     }
   }
 

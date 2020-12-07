@@ -2,7 +2,7 @@ import React from 'react';
 import './contact.css';
 import ContactImg from '../images/contact-icon.webp'
 
-const Contact = () => {
+const Contact = ({profile}) => {
 
     const openContactModal = () => {
         let modal = document.getElementById("ContactModal");
@@ -27,9 +27,9 @@ const Contact = () => {
                     </div>
                     <div className='modal-content-bottom'>
                         <h2>Lets get in touch!</h2>
-                        <a href='tel:678-365-6548'>Call: 678-365-6548</a>
-                        <a href='mailto:luisabad3210@gmail.com'>Email: Luisabad3210@gmail.com</a>
-                        <div><a href='https://www.linkedin.com/in/luis-abad-a00180183/'  target="_blank">LinkedIn Profile</a></div>
+                        <a href={'tel:' + profile.contact.phone}>Call: {profile.contact.phone}</a>
+                        <a href={'mailto:' + profile.contact.email}>Email: {profile.contact.email}</a>
+                        <div><a href={profile.contact.linkedin}  target="_blank">LinkedIn Profile</a></div>
                         <button className='ModalClose' onClick={()=>{closeContactModal()}}>Close</button>
                     </div>
                 </div>
