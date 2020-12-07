@@ -1,5 +1,6 @@
 import React from 'react';
 import './contact.css';
+import ContactImg from '../images/contact-icon.webp'
 
 const Contact = () => {
 
@@ -20,11 +21,17 @@ const Contact = () => {
             </button>
 
             <div id="ContactModal" className="modal">
-                {/* <!-- Modal content --> */}
                 <div className="modal-content">
-                    <span className="close" onClick={()=>{closeContactModal()}}>&times;</span>
-                    <div>Lets get in touch: <br></br></div>
-                    <p>Phone: 678-365-6548<br></br>Email: Luisabad3210@gmail.com</p>
+                    <div className='modal-content-top'>
+                        <img src={ContactImg} width='200px' height='200px'/>
+                    </div>
+                    <div className='modal-content-bottom'>
+                        <h2>Lets get in touch!</h2>
+                        <a href='tel:678-365-6548'>Call: 678-365-6548</a>
+                        <a href='mailto:luisabad3210@gmail.com'>Email: Luisabad3210@gmail.com</a>
+                        <div><a href='https://www.linkedin.com/in/luis-abad-a00180183/'  target="_blank">LinkedIn Profile</a></div>
+                        <button className='ModalClose' onClick={()=>{closeContactModal()}}>Close</button>
+                    </div>
                 </div>
             </div>
         </div>

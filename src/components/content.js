@@ -53,7 +53,7 @@ const Content = ({profile}) => {
                             <div className='modalSuccessContainer'>
                             <h2>Success!<br></br></h2>
                             Thank you for downloading my resume
-                            <button className="downloadModalClose" onClick={()=>{closeDownloadModal()}}>Back</button>
+                            <button className="ModalClose" onClick={()=>{closeDownloadModal()}}>Back</button>
                             </div>
                         
                         </div>

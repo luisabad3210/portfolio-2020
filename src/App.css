@@ -355,16 +355,12 @@ button:hover {
 }
 
 /* The Close Button */
-.downloadModalClose {
+.ModalClose {
     background-color: rgb(228, 230, 234);
     border: none;
     color: black;
     padding: 10px 100px;
     border-radius: 8px;
-}
-.close:hover, .close:focus {
-text-decoration: none;
-cursor: pointer;
 }
 
 .modalCheckContainer {
