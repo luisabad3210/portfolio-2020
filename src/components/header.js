@@ -1,9 +1,9 @@
 import React from 'react';
 import Arrow from '../components/images/down-arrow.png';
 import Contact from '../components/contact/contact';
+import Profile from './user';
 
-
-const Header = ({profile}) => {
+const Header = () => {
     return (
         <div className='headerContainer'>
             <div className='headerSection'>
@@ -13,8 +13,8 @@ const Header = ({profile}) => {
                 <div className='headerInfo'>
                         <div className='headerInfoContainer'>
                             <div className='profilePic'></div>
-                            <h1>{profile.firstName + ' ' + profile.lastName}</h1>
-                            {/* <p>{profile.bio}</p> */}
+                            <h1>{Profile.user.firstName + ' ' + Profile.user.lastName}</h1>
+                            {/* <p>{User.bio}</p> */}
                         </div>
                     <hr></hr>
                     <div className='headerBtnContainer'>
@@ -25,7 +25,7 @@ const Header = ({profile}) => {
                         <button className='headerBtn'>Videos</button>
                         <button className='headerBtn center'>More <img className='headerArrow' src={Arrow} /></button>
                         <div className='contactContainer' >
-                            <Contact profile={profile}/>
+                            <Contact/>
                         </div>
                     </div>
                 </div>

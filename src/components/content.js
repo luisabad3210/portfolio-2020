@@ -1,6 +1,6 @@
 import React from 'react';
+import Profile from './user';
 import Post from './post/post';
-import Profile from './images/profile-pic.png';
 import Resume from './images/resume.png';
 import Pdf from './images/resume.pdf';
 import ReactLogo from './images/badges/react.png'; 
@@ -13,7 +13,7 @@ import TerminalLogo from './images/badges/terminal.png';
 import UIUXLogo from './images/badges/uiux.png';
 import CheckLogo from './images/check-icon.png';
 
-const Content = ({profile}) => {
+const Content = () => {
 
     const openDownloadModal = () => {
         let modal = document.getElementById("downloadModal");
@@ -31,11 +31,11 @@ const Content = ({profile}) => {
                 <div className='contentLeft'>
                     <div className='intro'>
                         <h2>Intro</h2>
-                        <p>{profile.bio}</p>
-                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/T_U3HeH9U6x.png" width='15px' height='15px'/> {profile.profession}</p>
-                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/0WfUR2KWqGs.png" width='15px' height='15px'/> Went to <a href='https://www.digitalcrafts.com/atlanta-campus.html' >{profile.education}</a></p>
-                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/y1/r/ff2xkdFtGUz.png" width='15px' height='15px'/> Lives in <a href='https://www.facebook.com/places/Things-to-do-in-Atlanta-Georgia/107991659233606/' >{profile.currentCity}</a></p>
-                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/aH4CTEpBLHC.png" width='15px' height='15px' /> From <a href='https://www.facebook.com/places/Things-to-do-in-New-York-New-York/108424279189115/' >{profile.homeTown}</a></p>
+                        <p>{Profile.user.bio}</p>
+                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/T_U3HeH9U6x.png" width='15px' height='15px'/> {Profile.user.profession}</p>
+                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/0WfUR2KWqGs.png" width='15px' height='15px'/> Went to <a href='https://www.digitalcrafts.com/atlanta-campus.html' >{Profile.user.education}</a></p>
+                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/y1/r/ff2xkdFtGUz.png" width='15px' height='15px'/> Lives in <a href='https://www.facebook.com/places/Things-to-do-in-Atlanta-Georgia/107991659233606/' >{Profile.user.currentCity}</a></p>
+                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/aH4CTEpBLHC.png" width='15px' height='15px' /> From <a href='https://www.facebook.com/places/Things-to-do-in-New-York-New-York/108424279189115/' >{Profile.user.homeTown}</a></p>
                         <div className='resumeContainer'>
                             <a href={Pdf} download onClick={openDownloadModal}>
                                 <img className='resume' src={Resume} width='400px'/>
