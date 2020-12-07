@@ -1,5 +1,7 @@
 import React from 'react';
 import Arrow from '../components/images/down-arrow.png';
+import Contact from '../components/contact/contact';
+
 
 const Header = ({profile}) => {
     return (
@@ -22,6 +24,9 @@ const Header = ({profile}) => {
                         <button className='headerBtn'>Photos</button>
                         <button className='headerBtn'>Videos</button>
                         <button className='headerBtn center'>More <img className='headerArrow' src={Arrow} /></button>
+                        <div className='contactContainer' >
+                            <Contact />
+                        </div>
                     </div>
                 </div>
             </div>

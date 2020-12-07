@@ -2,7 +2,6 @@ import './App.css';
 import Navigation from './components/nav';
 import Header from './components/header';
 import Content from './components/content';
-import Contact from './components/contact/contact';
 
 const App = () => {
 
@@ -18,6 +17,7 @@ const App = () => {
     contact: {
       phone: '(678) 365-6548',
       email: 'luisabad3210@gmail.com',
+      linkin: 'https://www.linkedin.com/in/luis-abad-a00180183/'
     }
   }
 
@@ -26,7 +26,6 @@ const App = () => {
       <Navigation profile={profile}/>
       <Header profile={profile}/>
       <Content profile={profile}/>
-      {/* <Contact /> */}
     </div>
   );
 }

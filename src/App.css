@@ -20,6 +20,10 @@ hr {
     border-bottom: 1px solid lightgray;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .navContainer {
     background-color: white;
     display: flex;
@@ -320,5 +324,68 @@ hr {
 }
 .resume {
     border: 2px solid lightgray;
-    border-radius: 10px;
+    border-radius: 12px;
+}
+
+
+.downloadModal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0,0,0,0.4); 
+}
+
+/* Modal Content/Box */
+.download-modal-content {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    background-color: white;
+    color: black;
+    margin: 15% auto;
+    width: 330px; 
+    height: 350px;
+    border-radius: 12px;
+
+}
+
+/* The Close Button */
+.downloadModalClose {
+    background-color: rgb(228, 230, 234);
+    border: none;
+    color: black;
+    padding: 10px 100px;
+    border-radius: 8px;
+}
+.close:hover, .close:focus {
+text-decoration: none;
+cursor: pointer;
+}
+
+.modalCheckContainer {
+    background-color: rgb(51, 120, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.modalSuccessContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.contactContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
