@@ -203,6 +203,7 @@ button:hover {
     /* border: 1px solid red; */
     display: flex;
     justify-content: center;
+    background-color: rgb(240, 242, 245);
 }
 
 .contentSection {
@@ -399,7 +400,7 @@ button:hover {
     color: white;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    width: 900px;
+    width: 820px;
     height: 120px;
     padding: 20px;
 }
@@ -428,4 +429,17 @@ button:hover {
     background-color: white;
     height: 100vh;
     padding: 20px;
+}
+.profilePageContainer {
+    background-color: rgb(240, 242, 245);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profilePageSection {
+    background-color: white;
+    width: 900px;
+    height: 300px;
+    margin-bottom: 40px;
 }

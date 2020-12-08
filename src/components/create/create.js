@@ -1,7 +1,7 @@
 import React from 'react';
 import ProfileImg from '../images/profile-pic.png';
 
-const Post = ({profile}) => {
+const Post = () => {
     return (
         <div className='postContainer'>
             <div className='section1'>
