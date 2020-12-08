@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 import Logo from '../components/images/facebook-logo-icon.jpg';
 import Search from '../components/images/search-icon.png';
 import Arrow from '../components/images/down-arrow.png';

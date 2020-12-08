@@ -2,6 +2,7 @@ import React from 'react';
 import Arrow from '../components/images/down-arrow.png';
 import Contact from '../components/contact/contact';
 import Profile from './user';
+import {Link} from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -18,12 +19,22 @@ const Header = () => {
                         </div>
                     <hr></hr>
                     <div className='headerBtnContainer'>
-                        <button className='headerBtn'>Post</button>
-                        <button className='headerBtn'>About</button>
-                        <button className='headerBtn'>Friends</button>
-                        <button className='headerBtn'>Photos</button>
-                        <button className='headerBtn'>Videos</button>
-                        <button className='headerBtn center'>More <img className='headerArrow' src={Arrow} /></button>
+                        <Link to='/'>
+                            <button className='headerBtn'>Post</button>
+                        </Link>
+                        <Link to='/about'>
+                            <button className='headerBtn'>About</button>
+                        </Link>
+                        <Link to='/friend'>
+                            <button className='headerBtn'>Friends</button>
+                        </Link>
+                        <Link to='/photos'>
+                            <button className='headerBtn'>Photos</button>
+                        </Link>
+                        <Link to='/videos'>
+                            <button className='headerBtn'>Videos</button>
+                        </Link>
+                            <button className='headerBtn center'>More <img className='headerArrow' src={Arrow} /></button>
                         <div className='contactContainer' >
                             <Contact/>
                         </div>

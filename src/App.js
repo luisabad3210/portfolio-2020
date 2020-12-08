@@ -9,6 +9,12 @@ import Watch from './components/pages/watch';
 import Marketplace from './components/pages/marketplace';
 import Group from './components/pages/groups';
 
+import Post from './components/pages/post';
+import About from './components/pages/about';
+import Friend from './components/pages/friend';
+import Photos from './components/pages/photos';
+import Videos from './components/pages/videos';
+
 const App = () => {
   return (
     <Router>
@@ -21,8 +27,13 @@ const App = () => {
           <Route path='/watch' component={Watch}/>
           <Route path='/marketplace' component={Marketplace}/>
           <Route path='/groups' component={Group}/>
-        </Switch>
 
+          {/* <Route path='/post' component={Post}/> */}
+          <Route path='/about' component={About}/>
+          <Route path='/friend' component={Friend}/>
+          <Route path='/photos' component={Photos}/>
+          <Route path='/videos' component={Videos}/>
+        </Switch>
       </div>
     </Router>
 

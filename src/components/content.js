@@ -1,6 +1,6 @@
 import React from 'react';
 import Profile from './user';
-import Post from './post/post';
+import Create from './create/create';
 import Resume from './images/resume.png';
 import Pdf from './images/resume.pdf';
 import ReactLogo from './images/badges/react.png'; 
@@ -86,7 +86,7 @@ const Content = () => {
                 </div>
 
                 <div className='contentRight'>
-                    <Post />
+                    <Create />
                 </div>
             </div>
         </div>
