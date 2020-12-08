@@ -1,5 +1,6 @@
 .App {
     background-color: rgb(240, 242, 245);
+    height: 100vh;
 }
 h2 {
     margin-top: 0px;
@@ -384,4 +385,47 @@ button:hover {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.homePageContainer {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.pageSection {
+    /* margin-top: 20px; */
+    background-color: rgb(51, 120, 234);
+    color: white;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 900px;
+    height: 120px;
+    padding: 20px;
+}
+.sectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.backToProfile {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    /* font-weight: bold; */
+    font-size: 20px;
+}
+
+
+.pageContainer {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.navSection {
+    background-color: white;
+    height: 100vh;
+    padding: 20px;
 }
