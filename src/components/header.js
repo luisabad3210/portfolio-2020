@@ -34,7 +34,14 @@ const Header = () => {
                         <Link to='/videos'>
                             <button className='headerBtn'>Videos</button>
                         </Link>
+
+                        <div className='dropdown'>
                             <button className='headerBtn center'>More <img className='headerArrow' src={Arrow} /></button>
+                            <div className='dropdown-content'>
+                                More coming soon!
+                            </div>
+                        </div>
+
                         <div className='contactContainer' >
                             <Contact/>
                         </div>

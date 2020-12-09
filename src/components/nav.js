@@ -14,7 +14,13 @@ const Nav = () => {
         <div className='navContainer'>
             <div className='navContainer1'>
                 <img clasName='facebookLogo' src={Logo} height='50px'/>
+
+                <div className='dropdown'>
                 <div className='searchContainer'><button className='navSearchBtn'><img src={Search} width='15px' height='15px'/></button><input className='navSearchBar' placeholder='Search Facebook'></input></div>
+                    <div className='dropdown-content'>
+                        Search coming soon!
+                    </div>
+                </div>
             </div>
             
             <div className='navContainer2'>
