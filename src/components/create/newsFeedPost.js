@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import ProfilePic from '../images/profile-pic.png';
-// import 
+
 
 class NewsFeedPost extends Component {
 
