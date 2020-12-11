@@ -24,6 +24,9 @@ hr {
 button:hover {
     cursor: pointer;
 }
+i {
+    color: #696969
+}
 
 .navContainer {
     background-color: white;
@@ -308,13 +311,24 @@ button:hover {
     margin-left: 10px;
 }
 
-.postBtn {
-    background-color: rgb(51, 120, 234);
+.postBtnBlue, .postBtnGrey {
     border: none;
-    color: white;
     padding: 10px 185px;
     border-radius: 8px;
-    /* float: right; */
+}
+
+.postBtnBlue {
+    background-color: rgb(51, 120, 234);
+    color: white;
+}
+
+.postBtnGrey {
+    background-color: rgb(228, 230, 234);
+    color: black;
+}
+
+.postBtnGrey:hover {
+    cursor: no-drop;
 }
 
 .resumeContainer {
@@ -485,4 +499,37 @@ button:hover {
     border-radius: 12px;
     width: 90%;
     float: right;
+}
+
+.likeBtn {
+    background-color: rgb(228, 230, 234);
+    border: 1px solid rgb(228, 230, 234);
+    /* background-color: white;
+    border: 1px solid white; */
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin-left: 5px;
+}
+
+.bodyFeed {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.commentProfilePic {
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.postHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.globe {
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    /* color: red; */
 }
