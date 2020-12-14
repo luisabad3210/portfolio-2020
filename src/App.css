@@ -28,8 +28,15 @@ i {
     color: #696969
 }
 
-.navContainer {
+.navRoot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 3px solid rgb(235, 235, 235);
     background-color: white;
+}
+
+.navContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -37,7 +44,7 @@ i {
     padding-left: 15px;
     padding-right: 20px;
     height: 55px;
-    border-bottom: 1px solid rgb(235, 235, 235);
+    width: 1400px;
 }
 .navContainer1 {
     display: flex;
