@@ -3,11 +3,11 @@ import Header from '../header';
 import Content from '../content';
 
 
-const Profile = () => {
+const Profile = ({profile}) => {
     return (
         <div>
-            <Header />
-            <Content />
+            <Header profile={profile}/>
+            <Content profile={profile}/>
         </div>
     );
 }

@@ -1,10 +1,10 @@
 import React from 'react';
 import './contact.css';
 import ContactImg from '../images/contact-icon.webp'
-import Profile from '../user.json';
+// import Profile from '../user.json';
 
 
-const Contact = () => {
+const Contact = ({profile}) => {
 
     const openContactModal = () => {
         let modal = document.getElementById("ContactModal");
@@ -29,9 +29,9 @@ const Contact = () => {
                     </div>
                     <div className='modal-content-bottom'>
                         <h2>Lets get in touch!</h2>
-                        <a href={'tel:' + Profile.user.contact.phone}>Call: {Profile.user.contact.phone}</a>
-                        <a href={'mailto:' + Profile.user.contact.email}>Email: {Profile.user.contact.email}</a>
-                        <div><a href={Profile.user.contact.linkedin}  target="_blank">LinkedIn Profile</a></div>
+                        <a href={'tel:' + profile.contact.phone}>Call: {profile.contact.phone}</a>
+                        <a href={'mailto:' + profile.contact.email}>Email: {profile.contact.email}</a>
+                        <div><a href={profile.contact.linkedin}  target="_blank">LinkedIn Profile</a></div>
                         <button className='ModalClose' onClick={()=>{closeContactModal()}}>Close</button>
                     </div>
                 </div>

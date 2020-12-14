@@ -17,7 +17,7 @@ class App extends Component {
 
   state = {
     user: {
-      display: "lightMode",
+      isDarkmode: false,
       firstName: "Luis",
       lastName: "Abad",
       bio: "Self-motivated developer with a passion for product design. With a keen eye for details, proven experience, imagination and who sees solutions and challenges where others see problems. I am also an out of the box thinker, a disciplined and devoted worker and an individual that is good at sticking to deadlines.",
@@ -35,7 +35,7 @@ class App extends Component {
 
   render() {
 
-    const profile = () => {return <Profile />}
+    const profile = () => {return <Profile profile={this.state.user} />}
     const home = () => {return <Home />}
     const friends = () => {return <Friends />}
     const watch = () => {return <Watch />}
@@ -49,7 +49,7 @@ class App extends Component {
   return (
     <Router>
       <div className='App'>
-        <Navigation />
+        <Navigation profile={this.state.user}/>
         <Switch>
           <Route path='/' exact component={profile} />
           <Route path='/home' component={home}/>

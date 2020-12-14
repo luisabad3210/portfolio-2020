@@ -1,10 +1,9 @@
 import React from 'react';
 import Arrow from '../components/images/down-arrow.png';
 import Contact from '../components/contact/contact';
-import Profile from './user';
 import {Link} from 'react-router-dom'
 
-const Header = () => {
+const Header = ({profile}) => {
     return (
         <div className='headerContainer'>
             <div className='headerSection'>
@@ -14,8 +13,7 @@ const Header = () => {
                 <div className='headerInfo'>
                         <div className='headerInfoContainer'>
                             <div className='profilePic'></div>
-                            <h1>{Profile.user.firstName + ' ' + Profile.user.lastName}</h1>
-                            {/* <p>{User.bio}</p> */}
+                            <h1>{profile.firstName + ' ' + profile.lastName}</h1>
                         </div>
                     <hr></hr>
                     <div className='headerBtnContainer'>
@@ -43,7 +41,7 @@ const Header = () => {
                         </div>
 
                         <div className='contactContainer' >
-                            <Contact/>
+                            <Contact profile={profile}/>
                         </div>
                     </div>
                 </div>
