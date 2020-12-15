@@ -69,6 +69,7 @@ i {
     height: 40px;
     width: 240px;
 }
+
 .navSearchBtn {
     background-color: rgb(240, 242, 245);
     border: 1px solid rgb(240, 242, 245);
@@ -213,15 +214,12 @@ i {
     background-color: white;
     height: 500px;
     border-bottom: 1px solid rgb(235, 235, 235);
-
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .headerSection {
-    /* border: 1px solid red; */
     height: 100%;
-    /* display: grid; */
 }
 .headerBackgroundPic {
     background-image: url('./components/images/header-pic.png');
@@ -417,20 +415,9 @@ i {
 .postBtnGrey:hover {
     cursor: no-drop;
 }
-
-.resumeContainer {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
-    border: 1px solid lightgray;
-    border-radius: 12px;
-    padding: 10px;
-
-}
 .resume {
-    /* border: 1px solid lightgray; */
-    /* border-radius: 12px;  */
+    border: 1px solid lightgray;
+    border-radius: 12px; 
     width: 100%;
 }
 
@@ -623,4 +610,329 @@ i {
     width: 10px;
     height: 10px;
     /* color: red; */
+}
+
+.comment {
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(240, 242, 245);
+    border: 1px solid rgb(240, 242, 245);
+    color: rgb(112, 114, 118);
+    height: 40px;
+    width: 240px;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1250px) {
+    .navSearchBar {
+        display: none;
+    }
+    .navSearchBtn {
+        background-color: rgb(240, 242, 245);
+        border: 1px solid rgb(240, 242, 245);
+        color: rgb(112, 114, 118);
+        height: 44px; 
+        width: 44px;
+        border-radius: 50%;
+        padding: 0px;
+    }
+
+}
+
+@media screen and (min-width: 950px) and (max-width: 1000px) {
+    .navSearchBar {
+        display: none;
+    }
+    .navSearchBtn {
+        background-color: rgb(240, 242, 245);
+        border: 1px solid rgb(240, 242, 245);
+        color: rgb(112, 114, 118);
+        height: 44px; 
+        width: 44px;
+        border-radius: 50%;
+        padding: 0px;
+    }
+    .navContainer2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 950px) {
+    .navSearchBar {
+        display: none;
+    }
+    .navSearchBtn {
+        background-color: rgb(240, 242, 245);
+        border: 1px solid rgb(240, 242, 245);
+        color: rgb(112, 114, 118);
+        height: 44px; 
+        width: 44px;
+        border-radius: 50%;
+        padding: 0px;
+    }
+    .navContainer2 {
+        display: none;
+    }
+    .headerSection {
+        width: 100%;
+    }
+    .headerBackgroundPic {
+        width: 100%;
+        margin: 0px;
+        border-radius: 0px;
+    }
+    .contentContainer {
+        width: 100%;
+    }
+    .contentSection {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .resumeContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contentRight, .contentLeft, .postContainer, .newsFeedRoot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .resume {
+        height: 325px;
+        width: 450px;
+    }
+    .badges,  .intro{
+        width: 80%;
+        /* border-radius: 0px; */
+    }
+    .intro {
+        height: 620px;
+    }
+
+    .section1, .newsFeedContainer {
+        float: none;
+        width: 80%;
+        /* margin-left: 50px; */
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px) {
+    .navSearchBar {
+        display: none;
+    }
+    .navSearchBtn {
+        background-color: rgb(240, 242, 245);
+        border: 1px solid rgb(240, 242, 245);
+        color: rgb(112, 114, 118);
+        height: 44px; 
+        width: 44px;
+        border-radius: 50%;
+        padding: 0px;
+    }
+    .navContainer2 {
+        display: none;
+    }
+    .headerContainer {
+        height: 460px;
+    }
+    .headerSection {
+        width: 100%;
+    }
+    .profilePic {
+        top: 200px;
+    }
+    .headerBackgroundPic {
+        width: 100%;
+        height: 300px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+    .contentContainer {
+        width: 100%;
+    }
+    .contentSection {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .resumeContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contentRight, .contentLeft, .postContainer, .newsFeedRoot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .resume {
+        height: 325px;
+        width: 450px;
+    }
+    .badges,  .intro{
+        width: 85%;
+        /* border-radius: 0px; */
+    }
+    .intro {
+        height: 620px;
+    }
+
+    .section1, .newsFeedContainer {
+        float: none;
+        width: 85%;
+        /* margin-left: 50px; */
+    }
+    .gone {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+    .navSearchBar {
+        display: none;
+    }
+    .navSearchBtn {
+        background-color: rgb(240, 242, 245);
+        border: 1px solid rgb(240, 242, 245);
+        color: rgb(112, 114, 118);
+        height: 44px; 
+        width: 44px;
+        border-radius: 50%;
+        padding: 0px;
+    }
+    .navContainer2 {
+        display: none;
+    }
+    .headerContainer {
+        height: 400px;
+    }
+    .headerSection {
+        width: 100%;
+    }
+    .profilePic {
+        top: 170px;
+        width: 150px;
+        height: 150px;
+    }
+    .headerBackgroundPic {
+        width: 100%;
+        height: 250px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+    .contentContainer {
+        width: 100%;
+    }
+    .contentSection {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .resumeContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contentRight, .contentLeft, .postContainer, .newsFeedRoot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .resume {
+        height: 325px;
+        width: 450px;
+    }
+    .badges,  .intro{
+        width: 85%;
+        /* border-radius: 0px; */
+    }
+    .intro {
+        height: 620px;
+    }
+
+    .section1, .newsFeedContainer {
+        float: none;
+        width: 85%;
+        /* margin-left: 50px; */
+    }
+    .gone {
+        display: none;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 500px) {
+    .navSearchBar {
+        display: none;
+    }
+    .navSearchBtn {
+        background-color: rgb(240, 242, 245);
+        border: 1px solid rgb(240, 242, 245);
+        color: rgb(112, 114, 118);
+        height: 44px; 
+        width: 44px;
+        border-radius: 50%;
+        padding: 0px;
+    }
+    .navContainer2 {
+        display: none;
+    }
+    .headerContainer {
+        height: 400px;
+    }
+    .headerSection {
+        width: 100%;
+    }
+    .profilePic {
+        top: 170px;
+        width: 150px;
+        height: 150px;
+    }
+    .headerBackgroundPic {
+        width: 100%;
+        height: 250px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+    .contentContainer {
+        width: 100%;
+    }
+    .contentSection {
+        display: flex;
+        flex-direction: column;
+        /* width: 100%; */
+    }
+    .resumeContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contentRight, .contentLeft, .postContainer, .newsFeedRoot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .resume {
+        height: 325px;
+        width: 450px;
+    }
+    .badges,  .intro{
+        width: 85%;
+        /* border-radius: 0px; */
+    }
+    .intro {
+        height: 620px;
+    }
+    .section1, .newsFeedContainer {
+        float: none;
+        width: 85%;
+        /* border-radius: 0px; */
+    }
+    .gone {
+        display: none;
+    }
 }

@@ -10,7 +10,7 @@ class NewsFeedPost extends Component {
 
     render() {
         return (
-            <div>
+            <div className='newsFeedRoot'>
                 <div className='newsFeedContainer'>
                     <div className='postHeader'> 
                         <img className='commentProfilePic' src={ProfilePic} /> 
@@ -36,7 +36,7 @@ class NewsFeedPost extends Component {
                             Comment
                         </button>
                         <button className='likeBtn'>Share</button>
-                        {this.state.isCommenting === true ? <div><hr></hr><div className='searchContainer'><img className='commentProfilePic' src={ProfilePic}/><button className='navSearchBtn'></button><input className='navSearchBar' placeholder='Write a comment...'></input></div></div>: null}
+                        {this.state.isCommenting === true ? <div><hr></hr><div className='searchContainer'><img className='commentProfilePic' src={ProfilePic}/><button className='navSearchBtn'></button><input className='comment' placeholder='Write a comment...'></input></div></div>: null}
                         
                     </div> 
                 </div>

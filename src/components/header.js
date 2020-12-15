@@ -31,10 +31,10 @@ const Header = ({profile}) => {
                             <button className='headerBtn'>Photos</button>
                         </Link>
                         <Link to='/videos'>
-                            <button className='headerBtn'>Videos</button>
+                            <button className='headerBtn gone'>Videos</button>
                         </Link>
 
-                        <div className='dropdown'>
+                        <div className='dropdown gone'>
                             <button className='headerBtn center'>More <img className='headerArrow' src={Arrow} /></button>
                             <div className='dropdown-content'>
                                 More coming soon!
