@@ -3,10 +3,10 @@ import Header from '../header';
 import {Link} from 'react-router-dom';
 
 
-const Friend = () => {
+const Friend = ({profile}) => {
     return (
         <div>
-            <Header />
+            <Header profile={profile}/>
             <div className='profilePageContainer'>
                 <div className='profilePageSection'>
                     <div className='sectionContainer'>

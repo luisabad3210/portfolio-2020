@@ -4,6 +4,7 @@ import Content from '../content';
 
 
 const Profile = ({profile}) => {
+    // console.log(profile.firstName)
     return (
         <div>
             <Header profile={profile}/>

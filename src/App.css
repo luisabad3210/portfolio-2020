@@ -194,13 +194,15 @@ i {
 }
 
 .darkmodeBtn {
-    /* background-color: white;
-    border: 1px solid white; */
-    
+    background-color: white;
+    border: 1px solid white;
+    padding: 5px 200px 5px 15px;
+    border-radius: 5px;
+    margin-bottom: 2.5px;
 }
 
 .darkmodeBtn:hover {
-    /* background-color: #aaa; */
+    background-color: lightgrey;
 }
 
 

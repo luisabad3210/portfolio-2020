@@ -4,6 +4,7 @@ import Contact from '../components/contact/contact';
 import {Link} from 'react-router-dom'
 
 const Header = ({profile}) => {
+    // console.log(profile.firstName + ' ' + profile.lastName)
     return (
         <div className='headerContainer'>
             <div className='headerSection'>
