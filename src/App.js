@@ -34,13 +34,12 @@ class App extends Component {
   }
 
   render() {
-    // console.log(this.state.user.firstName)
-    const profile = () => {return <Profile profile={this.state.user}/>}
     const home = () => {return <Home />}
     const friends = () => {return <Friends />}
     const watch = () => {return <Watch />}
     const marketplace = () => {return <Marketplace />}
     const group = () => {return <Group />}
+    const profile = () => {return <Profile profile={this.state.user}/>}
     const about = () => {return <About profile={this.state.user}/>}
     const friend = () => {return <Friend profile={this.state.user}/>}
     const photos = () => {return <Photos profile={this.state.user}/>}

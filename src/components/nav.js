@@ -71,10 +71,10 @@ const Nav = ({profile}) => {
                     </div>
                     <div className='settings-modal-content-bottom'>
                         <h2>Display & Accessibility</h2>
-                        <h4 className='darkmodeName' >Darkmode</h4>
+                        <h4 className='darkmodeName' >Darkmode coming soon!</h4>
                         <p className='darkmodeP'>Adjust the appearance of Facebook to reduce glare and give your eyes a break.</p>
-                        <div><button className='darkmodeBtn'>Off </button></div>
-                        <div><button className='darkmodeBtn'>On </button></div>
+                        {/* <div>Darkmode coming soon</div> */}
+                        
                         <button className='ModalClose' onClick={()=>{closeSettingsModal()}}>Close</button>
                     </div>
                 </div>
