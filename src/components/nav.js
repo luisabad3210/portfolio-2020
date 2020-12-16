@@ -70,12 +70,13 @@ const Nav = ({profile}) => {
                         <img src={SettingsImg} width='150px' height='150px'/>
                     </div>
                     <div className='settings-modal-content-bottom'>
-                        <h2>Display & Accessibility</h2>
-                        <h4 className='darkmodeName' >Darkmode coming soon!</h4>
-                        <p className='darkmodeP'>Adjust the appearance of Facebook to reduce glare and give your eyes a break.</p>
-                        {/* <div>Darkmode coming soon</div> */}
-                        
-                        <button className='ModalClose' onClick={()=>{closeSettingsModal()}}>Close</button>
+                        <div className='modalSuccessContainer'>
+                            <h2>Display & Accessibility</h2>
+                            <h4 className='darkmodeName' >Darkmode coming soon!</h4>
+                            <p className='darkmodeP'>Adjust the appearance of Facebook to reduce glare and give your eyes a break.</p>
+                            {/* <div>Darkmode coming soon</div> */}
+                            <button className='ModalClose' onClick={()=>{closeSettingsModal()}}>Close</button>
+                        </div>
                     </div>
                 </div>
             </div>

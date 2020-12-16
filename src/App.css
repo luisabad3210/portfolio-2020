@@ -20,14 +20,12 @@ hr {
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgray;
 }
-
 button:hover {
     cursor: pointer;
 }
 i {
     color: #696969
 }
-
 .navRoot {
     display: flex;
     flex-direction: row;
@@ -35,7 +33,6 @@ i {
     border-bottom: 3px solid rgb(235, 235, 235);
     background-color: white;
 }
-
 .navContainer {
     display: flex;
     flex-direction: row;
@@ -50,7 +47,6 @@ i {
     display: flex;
     flex-direction: row;
     align-items: center;
-
 }
 .facebookLogo {
     margin-right: 200px;
@@ -69,7 +65,6 @@ i {
     height: 40px;
     width: 240px;
 }
-
 .navSearchBtn {
     background-color: rgb(240, 242, 245);
     border: 1px solid rgb(240, 242, 245);
@@ -79,7 +74,6 @@ i {
     border-bottom-left-radius: 50px;
     padding-left: 10px;
 }
-
 .navbtn2 {
     background-color: white;
     border: none;
@@ -114,7 +108,6 @@ i {
     font-weight: 545;
     padding-left: 2px;
     padding-right: 8px;
-    /* padding: 9px 8px 10px 2px; */
 }
 .navProfilePic {
     background-image: url('./components/images/profile-pic-cropped.jpg');
@@ -139,13 +132,8 @@ i {
     font-size: 30px;
 }
 .settings-modal-content-bottom {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center; */
     padding: 10px 10px 10px 30px;
 }
-
 /* The Modal (background) */
 .settingsModal {
     display: none; 
@@ -159,21 +147,17 @@ i {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0,0,0,0.4); 
 }
-
 /* Modal Content/Box */
 .settings-modal-content {
     background-color: white;
     color: black;
     margin: 15% auto;
-    /* padding: 20px; */
-    /* border: 1px solid #888; */
     width: 350px; 
-    height: 400px;
+    height: 350px;
     border-radius: 12px;
     display: grid;
-    grid-template-rows: 40% 60%;
+    grid-template-rows: 50% 50%;
 }
-
 /* The Close Button */
 .close {
     color: #aaa;
@@ -186,7 +170,6 @@ i {
     text-decoration: none;
     cursor: pointer;
 }
-
 .darkmodeName {
     margin: 0px;
 }
@@ -194,7 +177,6 @@ i {
     margin-top: 0px;
     color: gray
 }
-
 .darkmodeBtn {
     background-color: lightgrey;
     border: none;
@@ -202,15 +184,10 @@ i {
     border-radius: 5px;
     margin-bottom: 2.5px;
 }
-
 .darkmodeBtn:hover {
     background-color: lightgrey;
     border: none;
 }
-
-
-
-
 .headerContainer {
     background-color: white;
     height: 500px;
@@ -235,20 +212,17 @@ i {
     position: absolute;
     background-image: url('./components/images/profile-pic.png');
     background-size: 100% 100%;
-    /* background-position: center; */
     border-radius: 50%;
     width: 170px;
     height: 170px;
     top: 245px;
     border: 4px solid white;
 }
-
 .headerInfo {
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 5px;
 }
-
 .headerInfoContainer {
     display: flex;
     flex-direction: column;
@@ -269,26 +243,16 @@ i {
     cursor: pointer;
     border-radius: 10px;
 }
-
 .headerArrow {
     width: 15px;
     height: 15px;
-    /* margin-top: 10px; */
 }
 .center {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
-
-
-
-
-
 .contentContainer {
-    /* height: 800px;  */
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     background-color: rgb(240, 242, 245);
@@ -297,15 +261,10 @@ i {
 .contentSection {
     display: grid;
     grid-template-columns: 50% 50%;
-    /* grid-gap: 13px; */
-    /* border: 1px solid black;  */
     width: 880px;
-    /* height: 500px; */
     margin-top: 20px;
 }
-
 .intro {
-    /* display: none; */
     background-color: white;
     height: 580px;
     width: 90%;
@@ -326,20 +285,17 @@ i {
     width: 120px;
     height: 120px;
 }
-
 .badgesContainer2 {
     display: flex;
     flex-direction: column;
     margin-top: 25px;
 }
-
 .badgesContainerCenter {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-
 .badges {
     background-color: white;
     height: 520px;
@@ -348,12 +304,10 @@ i {
     box-shadow: 0px 2px 10px rgb(235, 235, 235);
     margin-bottom: 15px;
     padding: 20px;
-
 }
 .rotate {
     animation: rotation 10s infinite linear;
 }
-
 @keyframes rotation {
     from {
         transform: rotate(0deg);
@@ -362,7 +316,6 @@ i {
         transform: rotate(359deg);
     }
 }
-
 .section1 {
     background-color: white;
     height: 150px;
@@ -374,7 +327,6 @@ i {
     padding: 20px;
 
 }
-
 .section2 {
     background-color: white;
     height: 410px;
@@ -384,17 +336,13 @@ i {
     margin-bottom: 15px;
     float: right;
     padding: 20px;
-
 }
-
 .postInputContainer {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
-
 .postInput {
-    /* border-top-right-radius: 50px; */
     border-radius: 50px;
     background-color: rgb(240, 242, 245);
     border: 1px solid rgb(240, 242, 245);
@@ -404,23 +352,19 @@ i {
     padding: 10px;
     margin-left: 10px;
 }
-
 .postBtnBlue, .postBtnGrey {
     border: none;
     padding: 10px 185px;
     border-radius: 8px;
 }
-
 .postBtnBlue {
     background-color: rgb(51, 120, 234);
     color: white;
 }
-
 .postBtnGrey {
     background-color: rgb(228, 230, 234);
     color: black;
 }
-
 .postBtnGrey:hover {
     cursor: no-drop;
 }
@@ -429,8 +373,6 @@ i {
     border-radius: 12px; 
     width: 100%;
 }
-
-
 .downloadModal {
     display: none; 
     position: fixed;
@@ -443,7 +385,6 @@ i {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0,0,0,0.4); 
 }
-
 /* Modal Content/Box */
 .download-modal-content {
     display: grid;
@@ -456,7 +397,6 @@ i {
     border-radius: 12px;
 
 }
-
 /* The Close Button */
 .ModalClose {
     background-color: rgb(228, 230, 234);
@@ -465,7 +405,6 @@ i {
     padding: 10px 100px;
     border-radius: 8px;
 }
-
 .modalCheckContainer {
     background-color: rgb(51, 120, 234);
     display: flex;
@@ -474,7 +413,6 @@ i {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
-
 .modalSuccessContainer {
     display: flex;
     flex-direction: column;
@@ -488,15 +426,12 @@ i {
     justify-content: flex-end;
     align-items: center;
 }
-
 .homePageContainer {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 .pageSection {
-    /* margin-top: 20px; */
     background-color: rgb(51, 120, 234);
     color: white;
     border-bottom-left-radius: 12px;
@@ -510,22 +445,17 @@ i {
     flex-direction: row;
     justify-content: center;
 }
-
 .backToProfile {
     background-color: white;
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px 15px;
-    /* font-weight: bold; */
     font-size: 20px;
 }
-
-
 .pageContainer {
     display: grid;
     grid-template-columns: 25% 75%;
 }
-
 .navSection {
     background-color: white;
     height: 100vh;
@@ -537,15 +467,12 @@ i {
     flex-direction: column;
     align-items: center;
 }
-
 .profilePageSection {
     background-color: white;
     width: 900px;
     height: 300px;
     margin-bottom: 40px;
 }
-
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -566,7 +493,6 @@ i {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-    /* border: 1px solid red; */
 }
 .dropdown-content a:hover {
     background-color: #f1f1f1
@@ -574,11 +500,9 @@ i {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-
 .postContainer {
     margin-bottom: 20px;
 }
-
 .newsFeedContainer {
     background-color: white;
     margin-bottom: 15px;
@@ -587,40 +511,31 @@ i {
     width: 90%;
     float: right;
 }
-
 .likeBtn {
     background-color: rgb(228, 230, 234);
     border: 1px solid rgb(228, 230, 234);
-    /* background-color: white;
-    border: 1px solid white; */
     border-radius: 5px;
     padding: 10px 30px;
     margin-left: 5px;
 }
-
 .bodyFeed {
     margin-top: 25px;
     margin-bottom: 25px;
 }
-
 .commentProfilePic {
     margin-right: 5px;
     width: 40px;
     height: 40px;
 }
-
 .postHeader {
     display: flex;
     flex-direction: row;
 }
-
 .globe {
     margin-left: 5px;
     width: 10px;
     height: 10px;
-    /* color: red; */
 }
-
 .comment {
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -630,7 +545,10 @@ i {
     height: 40px;
     width: 240px;
 }
-
+.calculatorPrj {
+    display: flex;
+    justify-content: center;
+}
 @media screen and (min-width: 1000px) and (max-width: 1250px) {
     .navSearchBar {
         display: none;
@@ -644,9 +562,7 @@ i {
         border-radius: 50%;
         padding: 0px;
     }
-
 }
-
 @media screen and (min-width: 950px) and (max-width: 1000px) {
     .navSearchBar {
         display: none;
@@ -663,8 +579,15 @@ i {
     .navContainer2 {
         display: none;
     }
+    .pageSection {
+        width: 100%;
+        border-radius: 0px;
+    }
+    .profilePageSection {
+        background-color: rgb(240, 242, 245);
+        width: 100%;
+    }
 }
-
 @media screen and (min-width: 700px) and (max-width: 950px) {
     .navSearchBar {
         display: none;
@@ -695,7 +618,6 @@ i {
     .contentSection {
         display: flex;
         flex-direction: column;
-        /* width: 100%; */
     }
     .resumeContainer {
         display: flex;
@@ -714,20 +636,29 @@ i {
     }
     .badges,  .intro{
         width: 80%;
-        /* border-radius: 0px; */
     }
     .intro {
         height: 620px;
     }
-
     .section1, .newsFeedContainer {
         float: none;
         width: 80%;
-        /* margin-left: 50px; */
     }
-
+    .pageSection {
+        width: 100%;
+        border-radius: 0px;
+    }
+    .profilePageSection {
+        background-color: rgb(240, 242, 245);
+        width: 100%;
+    }
+    .badgesContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
-
 @media screen and (min-width: 600px) and (max-width: 700px) {
     .navSearchBar {
         display: none;
@@ -765,7 +696,6 @@ i {
     .contentSection {
         display: flex;
         flex-direction: column;
-        /* width: 100%; */
     }
     .resumeContainer {
         display: flex;
@@ -784,22 +714,32 @@ i {
     }
     .badges,  .intro{
         width: 85%;
-        /* border-radius: 0px; */
     }
     .intro {
         height: 620px;
     }
-
     .section1, .newsFeedContainer {
         float: none;
         width: 85%;
-        /* margin-left: 50px; */
     }
     .gone {
         display: none;
     }
+    .pageSection {
+        width: 100%;
+        border-radius: 0px;
+    }
+    .profilePageSection {
+        background-color: rgb(240, 242, 245);
+        width: 100%;
+    }
+    .badgesContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
-
 @media screen and (min-width: 500px) and (max-width: 600px) {
     .navSearchBar {
         display: none;
@@ -839,7 +779,6 @@ i {
     .contentSection {
         display: flex;
         flex-direction: column;
-        /* width: 100%; */
     }
     .resumeContainer {
         display: flex;
@@ -858,19 +797,30 @@ i {
     }
     .badges,  .intro{
         width: 85%;
-        /* border-radius: 0px; */
     }
     .intro {
         height: 620px;
     }
-
     .section1, .newsFeedContainer {
         float: none;
         width: 85%;
-        /* margin-left: 50px; */
     }
     .gone {
         display: none;
+    }
+    .pageSection {
+        width: 100%;
+        border-radius: 0px;
+    }
+    .profilePageSection {
+        background-color: rgb(240, 242, 245);
+        width: 100%;
+    }
+    .badgesContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 }
 @media screen and (min-width: 400px) and (max-width: 500px) {
@@ -938,7 +888,7 @@ i {
         float: none;
         width: 80%;
     }
-    .gone, .gone2{
+    .gone, .gone2, .shareBtn{
         display: none;
     }
     .badgesContainer {
@@ -962,8 +912,22 @@ i {
     .postBtnBlue, .postBtnGrey {
         padding: 10px 170px;
     }
+    .pageSection {
+        width: 100%;
+        border-radius: 0px;
+        padding: 20px 5px 20px 5px;
+    }
+    .profilePageSection {
+        background-color: rgb(240, 242, 245);
+        width: 100%;
+    }
+    .badgesContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
-
 @media screen and (min-width: 300px) and (max-width: 400px) {
     .navSearchBar {
         display: none;
@@ -1050,5 +1014,15 @@ i {
     .navContainer {
         padding-left: 5px;
         padding-right: 5px;
+    }
+    .pageSection {
+        width: 100%;
+        height: 150px;
+        border-radius: 0px;
+        padding: 20px 5px 20px 5px;
+    }
+    .profilePageSection {
+        background-color: rgb(240, 242, 245);
+        width: 100%;
     }
 }

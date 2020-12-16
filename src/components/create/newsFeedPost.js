@@ -20,7 +20,9 @@ class NewsFeedPost extends Component {
                         </div>
                     </div>
                     <hr></hr>
-                    <div className='bodyFeed'>{this.props.feed.body}</div>
+                    <div className='bodyContainer'>
+                        <div className='bodyFeed'>{this.props.feed.body}</div>
+                    </div>
                     <hr></hr>
                     <div>
                         <button

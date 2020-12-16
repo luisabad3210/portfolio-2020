@@ -27,7 +27,7 @@ class Post extends Component {
             createNewsFeed('Tue Feb 04 2020', 'Checkout my old protfolio bellow', [], 0),
             createNewsFeed('Tue Feb 04 2020', <a href="http://luisabad3210.github.io/facebook/" target='_blank'><img alt='Twitter project' src={OldPortfolio} width='100%' height='220%' /></a>, [], 0),
             createNewsFeed('Tue Feb 04 2020', <a href="http://luisabad3210.github.io/twitter/" target='_blank'><img alt='Twitter project' src={ProjectOne} width='100%' height='220%' /></a>, [], 0),
-            createNewsFeed('Tue Feb 04 2020', <a href="https://luisabad3210.github.io/calculator-app/" target='_blank'><img alt='Calculator project' src={ProjectTwo} width='50%' height='50%' /></a>, [], 0),
+            createNewsFeed('Tue Feb 04 2020', <a className='calculatorPrj' href="https://luisabad3210.github.io/calculator-app/" target='_blank'><img alt='Calculator project' src={ProjectTwo} width='50%' height='50%' /></a>, [], 0),
         ],
     }
 
