@@ -35,7 +35,7 @@ class NewsFeedPost extends Component {
                         }}>
                             Comment
                         </button>
-                        <button className='likeBtn'>Share</button>
+                        <button className='likeBtn shareBtn'>Share</button>
                         {this.state.isCommenting === true ? <div><hr></hr><div className='searchContainer'><img className='commentProfilePic' src={ProfilePic}/><button className='navSearchBtn'></button><input className='comment' placeholder='Write a comment...'></input></div></div>: null}
                         
                     </div> 

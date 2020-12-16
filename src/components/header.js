@@ -28,7 +28,7 @@ const Header = ({profile}) => {
                             <button className='headerBtn'>Friends</button>
                         </Link>
                         <Link to='/photos'>
-                            <button className='headerBtn'>Photos</button>
+                            <button className='headerBtn gone2'>Photos</button>
                         </Link>
                         <Link to='/videos'>
                             <button className='headerBtn gone'>Videos</button>

@@ -62,21 +62,21 @@ const Content = ({profile}) => {
                     <div className='badges'>
                         <h2>Skills</h2>
                         <div className='badgesContainer'>
-                            <img className='rotate' src={ReactLogo} width='200px' height='200px'/>
-                            <img src={NodeLogo} width='200px' height='200px'/>
+                            <img className='badgeIcon rotate' src={ReactLogo}/>
+                            <img className='badgeIcon' src={NodeLogo}/>
                         </div>
 
                         <div className='badgesContainer2'>
                             <div className='badgesContainerCenter'>
-                                <img src={JavascriptLogo} width='120px' height='120px'/>
-                                <img src={HtmlLogo} width='120px' height='120px'/>
-                                <img src={CssLogo} width='120px' height='120px'/>
+                                <img className='badgeIcon2'src={JavascriptLogo} width='120px' height='120px'/>
+                                <img className='badgeIcon2'src={HtmlLogo} width='120px' height='120px'/>
+                                <img className='badgeIcon2'src={CssLogo} width='120px' height='120px'/>
                             </div>
                             
                             <div className='badgesContainerCenter'>
-                                <img src={GitLogo} width='120px' height='120px'/>
-                                <img src={TerminalLogo} width='120px' height='120px'/>
-                                <img src={UIUXLogo} width='120px' height='80px'/>
+                                <img className='badgeIcon2'src={GitLogo} width='120px' height='120px'/>
+                                <img className='badgeIcon2'src={TerminalLogo} width='120px' height='120px'/>
+                                <img className='badgeIcon2'src={UIUXLogo} width='120px' height='80px'/>
                             </div>
                             
                         </div>

@@ -114,14 +114,15 @@ i {
     font-weight: 545;
     padding-left: 2px;
     padding-right: 8px;
+    /* padding: 9px 8px 10px 2px; */
 }
 .navProfilePic {
     background-image: url('./components/images/profile-pic-cropped.jpg');
     background-size: 100% 100%;
     border-radius: 50px;
     margin-right: 5px;
-    width: 35px; 
-    height: 35px;
+    width: 38px; 
+    height: 38px;
 }
 .navContainer3 {
     display: flex;
@@ -316,6 +317,14 @@ i {
 .badgesContainer {
     display: flex;
     flex-direction: row;
+}
+.badgeIcon {
+    width: 200px;
+    height: 200px;
+}
+.badgeIcon2 {
+    width: 120px;
+    height: 120px;
 }
 
 .badgesContainer2 {
@@ -881,19 +890,19 @@ i {
         display: none;
     }
     .headerContainer {
-        height: 400px;
+        height: 360px;
     }
     .headerSection {
         width: 100%;
     }
     .profilePic {
-        top: 170px;
-        width: 150px;
-        height: 150px;
+        top: 150px;
+        width: 120px;
+        height: 120px;
     }
     .headerBackgroundPic {
         width: 100%;
-        height: 250px;
+        height: 200px;
         margin: 0px;
         border-radius: 0px;
     }
@@ -903,7 +912,6 @@ i {
     .contentSection {
         display: flex;
         flex-direction: column;
-        /* width: 100%; */
     }
     .resumeContainer {
         display: flex;
@@ -917,22 +925,130 @@ i {
         align-items: center;
     }
     .resume {
-        height: 325px;
-        width: 450px;
+        height: 280px;
+        width: 300px;
     }
     .badges,  .intro{
-        width: 85%;
-        /* border-radius: 0px; */
+        width: 80%;
     }
     .intro {
         height: 620px;
     }
     .section1, .newsFeedContainer {
         float: none;
-        width: 85%;
-        /* border-radius: 0px; */
+        width: 80%;
     }
-    .gone {
+    .gone, .gone2{
         display: none;
+    }
+    .badgesContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .badgeIcon {
+        width: 150px;
+        height: 150px;
+    }
+    .badgeIcon2 {
+        width: 90px;
+        height: 80px;
+        margin-bottom: 15px;
+    }
+    .badges {
+        height: 400px;
+    }
+    .postBtnBlue, .postBtnGrey {
+        padding: 10px 170px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .navSearchBar {
+        display: none;
+    }
+    .navSearchBtn {
+        display: none;
+    }
+    .navContainer2 {
+        display: none;
+    }
+    .headerContainer {
+        height: 310px;
+    }
+    .headerSection {
+        width: 100%;
+    }
+    .profilePic {
+        top: 120px;
+        width: 100px;
+        height: 100px;
+    }
+    .headerBackgroundPic {
+        width: 100%;
+        height: 150px;
+        margin: 0px;
+        border-radius: 0px;
+    }
+    .contentContainer {
+        width: 100%;
+    }
+    .contentSection {
+        display: flex;
+        flex-direction: column;
+    }
+    .resumeContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contentRight, .contentLeft, .postContainer, .newsFeedRoot {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .resume {
+        height: 230px;
+        width: 250px;
+    }
+    .badges, .intro{
+        width: 80%;
+    }
+    .intro {
+        height: 620px;
+    }
+    .section1, .newsFeedContainer {
+        float: none;
+        width: 80%;
+    }
+    .gone, .gone2, .gone3, .shareBtn{
+        display: none;
+    }
+    .badgesContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .badgeIcon {
+        width: 120px;
+        height: 120px;
+    }
+    .badgeIcon2 {
+        width: 80px;
+        height: 70px;
+        margin-bottom: 15px;
+    }
+    .badges {
+        height: 370px;
+    }
+    .postBtnBlue, .postBtnGrey {
+        padding: 10px 100px;
+    }
+    .navContainer {
+        padding-left: 5px;
+        padding-right: 5px;
     }
 }
