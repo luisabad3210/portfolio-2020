@@ -48,9 +48,6 @@ i {
     flex-direction: row;
     align-items: center;
 }
-.facebookLogo {
-    margin-right: 200px;
-}
 .searchContainer {
     display: flex;
     flex-direction: row;

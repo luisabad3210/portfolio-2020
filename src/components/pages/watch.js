@@ -7,7 +7,7 @@ const Watch = () => {
         <div className='pageContainer'>
             <div className='navSection'>
                 <h2>Watch</h2>
-                <div className='searchContainer'><button className='navSearchBtn'><img src={Search} width='15px' height='15px'/></button><input className='navSearchBar' placeholder='Search videos'></input></div>
+                <div className='searchContainer'><button className='navSearchBtn'><img src={Search} width='15px' height='15px' alt='' title=''/></button><input className='navSearchBar' placeholder='Search videos'></input></div>
                 <hr></hr>
             </div>
 

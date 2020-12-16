@@ -25,9 +25,9 @@ class Post extends Component {
             createNewsFeed('Tue Feb 04 2020', 'There’s something always being added to this page like new features and projects, so you might see a few glitches here and there lol', [], 0),
             createNewsFeed('Tue Feb 04 2020', 'Click on the image bellow to view projects', [], 0),
             createNewsFeed('Tue Feb 04 2020', 'Checkout my old protfolio bellow', [], 0),
-            createNewsFeed('Tue Feb 04 2020', <a href="http://luisabad3210.github.io/facebook/" target='_blank'><img alt='Twitter project' src={OldPortfolio} width='100%' height='220%' /></a>, [], 0),
-            createNewsFeed('Tue Feb 04 2020', <a href="http://luisabad3210.github.io/twitter/" target='_blank'><img alt='Twitter project' src={ProjectOne} width='100%' height='220%' /></a>, [], 0),
-            createNewsFeed('Tue Feb 04 2020', <a className='calculatorPrj' href="https://luisabad3210.github.io/calculator-app/" target='_blank'><img alt='Calculator project' src={ProjectTwo} width='50%' height='50%' /></a>, [], 0),
+            createNewsFeed('Tue Feb 04 2020', <a href="http://luisabad3210.github.io/facebook/" target='_blank' rel="noreferrer"><img src={OldPortfolio} width='100%' height='220%' alt='' title=''/></a>, [], 0),
+            createNewsFeed('Tue Feb 04 2020', <a href="http://luisabad3210.github.io/twitter/" target='_blank' rel="noreferrer"><img src={ProjectOne} width='100%' height='220%' alt='' title=''/></a>, [], 0),
+            createNewsFeed('Tue Feb 04 2020', <a className='calculatorPrj' href="https://luisabad3210.github.io/calculator-app/" target='_blank' rel="noreferrer"><img src={ProjectTwo} width='50%' height='50%' alt='' title=''/></a>, [], 0),
         ],
     }
 
@@ -38,16 +38,13 @@ class Post extends Component {
                     <h2>Create</h2>
                     <div>
                         <div className='postInputContainer'>
-                            <img src={ProfileImg} width='50px' height='50px'/>
+                            <img src={ProfileImg} width='50px' height='50px' alt='' title=''/>
                             <input className='postInput' id='post-input' placeholder="What's on your mind?"
                                 
                                 onChange = {(event)=> {
                                     let text = event.target.value;
-                                    // console.log(text)
                                     if (text !== '') {
-                                        this.setState({isPosting: true})
-                                        // clear()
-                                        
+                                        this.setState({isPosting: true})                                        
                                     } else {
                                         this.setState({isPosting: false})
                                     }

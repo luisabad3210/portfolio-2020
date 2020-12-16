@@ -13,10 +13,10 @@ class NewsFeedPost extends Component {
             <div className='newsFeedRoot'>
                 <div className='newsFeedContainer'>
                     <div className='postHeader'> 
-                        <img className='commentProfilePic' src={ProfilePic} /> 
+                        <img className='commentProfilePic' src={ProfilePic} alt='' title=''/> 
                         <div>
                             <div>Luis Abad <i>created a post</i></div>
-                            <div><i>{this.props.feed.date}</i><img className='globe' src="https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/yQ3UwzfyAi-.png" alt="Public"/></div>
+                            <div><i>{this.props.feed.date}</i><img className='globe' src="https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/yQ3UwzfyAi-.png" alt='' title=''/></div>
                         </div>
                     </div>
                     <hr></hr>
@@ -38,7 +38,7 @@ class NewsFeedPost extends Component {
                             Comment
                         </button>
                         <button className='likeBtn shareBtn'>Share</button>
-                        {this.state.isCommenting === true ? <div><hr></hr><div className='searchContainer'><img className='commentProfilePic' src={ProfilePic}/><button className='navSearchBtn'></button><input className='comment' placeholder='Write a comment...'></input></div></div>: null}
+                        {this.state.isCommenting === true ? <div><hr></hr><div className='searchContainer'><img className='commentProfilePic' src={ProfilePic} alt='' title=''/><button className='navSearchBtn'></button><input className='comment' placeholder='Write a comment...'></input></div></div>: null}
                         
                     </div> 
                 </div>

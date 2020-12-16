@@ -35,7 +35,7 @@ const Header = ({profile}) => {
                         </Link>
 
                         <div className='dropdown gone'>
-                            <button className='headerBtn center'>More <img className='headerArrow' src={Arrow} /></button>
+                            <button className='headerBtn center'>More <img className='headerArrow' src={Arrow} alt='' title=''/></button>
                             <div className='dropdown-content'>
                                 More coming soon!
                             </div>

@@ -1,5 +1,4 @@
 import React from 'react';
-// import Profile from './user';
 import Create from './create/create';
 import Resume from './images/resume.png';
 import Pdf from './images/resume.pdf';
@@ -32,13 +31,13 @@ const Content = ({profile}) => {
                     <div className='intro'>
                         <h2>Intro</h2>
                         <p>{profile.bio}</p>
-                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/T_U3HeH9U6x.png" width='15px' height='15px'/> {profile.profession}</p>
-                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/0WfUR2KWqGs.png" width='15px' height='15px'/> Went to <a href='https://www.digitalcrafts.com/atlanta-campus.html' >{profile.education}</a></p>
-                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/y1/r/ff2xkdFtGUz.png" width='15px' height='15px'/> Lives in <a href='https://www.facebook.com/places/Things-to-do-in-Atlanta-Georgia/107991659233606/' >{profile.currentCity}</a></p>
-                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/aH4CTEpBLHC.png" width='15px' height='15px' /> From <a href='https://www.facebook.com/places/Things-to-do-in-New-York-New-York/108424279189115/' >{profile.homeTown}</a></p>
+                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/T_U3HeH9U6x.png" width='15px' height='15px'alt='' title=''/> {profile.profession}</p>
+                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/0WfUR2KWqGs.png" width='15px' height='15px'alt='' title=''/> Went to <a href='https://www.digitalcrafts.com/atlanta-campus.html' >{profile.education}</a></p>
+                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/y1/r/ff2xkdFtGUz.png" width='15px' height='15px'alt='' title=''/> Lives in <a href='https://www.facebook.com/places/Things-to-do-in-Atlanta-Georgia/107991659233606/' >{profile.currentCity}</a></p>
+                        <p><img src="https://static.xx.fbcdn.net/rsrc.php/v3/yv/r/aH4CTEpBLHC.png" width='15px' height='15px' alt='' title=''/> From <a href='https://www.facebook.com/places/Things-to-do-in-New-York-New-York/108424279189115/' >{profile.homeTown}</a></p>
                         <div className='resumeContainer'>
                             <a href={Pdf} download onClick={openDownloadModal}>
-                                <img className='resume' src={Resume} width='400px'/>
+                                <img className='resume' src={Resume} width='400px' alt='' title=''/>
                             </a>
                         </div>
                     </div>
@@ -46,9 +45,8 @@ const Content = ({profile}) => {
                     {/* <!------- Modal-------> */}
                     <div id="downloadModal" className="downloadModal">
                         <div className="download-modal-content">
-                            {/* <span className="close" onClick={()=>{closeDownloadModal()}}>&times;</span> */}
                             <div className='modalCheckContainer'>
-                                <img src={CheckLogo} height='120px' width='120px'/>
+                                <img src={CheckLogo} height='120px' width='120px' alt='' title=''/>
                             </div>
                             <div className='modalSuccessContainer'>
                             <h2>Success!<br></br></h2>
@@ -62,21 +60,21 @@ const Content = ({profile}) => {
                     <div className='badges'>
                         <h2>Skills</h2>
                         <div className='badgesContainer'>
-                            <img className='badgeIcon rotate' src={ReactLogo}/>
-                            <img className='badgeIcon' src={NodeLogo}/>
+                            <img className='badgeIcon rotate' src={ReactLogo} alt='' title=''/>
+                            <img className='badgeIcon' src={NodeLogo} alt='' title=''/>
                         </div>
 
                         <div className='badgesContainer2'>
                             <div className='badgesContainerCenter'>
-                                <img className='badgeIcon2'src={JavascriptLogo} width='120px' height='120px'/>
-                                <img className='badgeIcon2'src={HtmlLogo} width='120px' height='120px'/>
-                                <img className='badgeIcon2'src={CssLogo} width='120px' height='120px'/>
+                                <img className='badgeIcon2'src={JavascriptLogo} width='120px' height='120px' alt='' title=''/>
+                                <img className='badgeIcon2'src={HtmlLogo} width='120px' height='120px' alt='' title=''/>
+                                <img className='badgeIcon2'src={CssLogo} width='120px' height='120px' alt='' title=''/>
                             </div>
                             
                             <div className='badgesContainerCenter'>
-                                <img className='badgeIcon2'src={GitLogo} width='120px' height='120px'/>
-                                <img className='badgeIcon2'src={TerminalLogo} width='120px' height='120px'/>
-                                <img className='badgeIcon2'src={UIUXLogo} width='120px' height='80px'/>
+                                <img className='badgeIcon2'src={GitLogo} width='120px' height='120px' alt='' title=''/>
+                                <img className='badgeIcon2'src={TerminalLogo} width='120px' height='120px' alt='' title=''/>
+                                <img className='badgeIcon2'src={UIUXLogo} width='120px' height='80px' alt='' title=''/>
                             </div>
                             
                         </div>

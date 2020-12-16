@@ -11,10 +11,6 @@ const Home = () => {
                     <button className='backToProfile'>Profile</button>
                 </Link>
             </div>
-
-            {/* <div >
-                <h2>Home</h2>
-            </div> */}
         </div>
         
         );
