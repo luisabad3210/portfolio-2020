@@ -65,3 +65,10 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+    .modal-content {
+        width: 90%;
+    }
+}

@@ -54,6 +54,7 @@ class Post extends Component {
                         </div>
     
                         <hr></hr>
+                        <div className='postBtnContainer'>
                         <button className={this.state.isPosting === false ? 'postBtnGrey' : 'postBtnBlue'} 
                             onClick={() => {
                             let text = this.state.response
@@ -66,6 +67,7 @@ class Post extends Component {
                                 this.setState({feeds: x})
                             }
                         }}>Post</button>
+                        </div>
                     </div>
                 </div>
 
