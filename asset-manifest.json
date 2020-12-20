@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio-2020/static/css/main.d0ff44c8.chunk.css",
+    "main.js": "/portfolio-2020/static/js/main.28b40932.chunk.js",
+    "main.js.map": "/portfolio-2020/static/js/main.28b40932.chunk.js.map",
+    "runtime-main.js": "/portfolio-2020/static/js/runtime-main.e6a4d258.js",
+    "runtime-main.js.map": "/portfolio-2020/static/js/runtime-main.e6a4d258.js.map",
+    "static/js/2.d14466ec.chunk.js": "/portfolio-2020/static/js/2.d14466ec.chunk.js",
+    "static/js/2.d14466ec.chunk.js.map": "/portfolio-2020/static/js/2.d14466ec.chunk.js.map",
+    "static/js/3.dda27cfb.chunk.js": "/portfolio-2020/static/js/3.dda27cfb.chunk.js",
+    "static/js/3.dda27cfb.chunk.js.map": "/portfolio-2020/static/js/3.dda27cfb.chunk.js.map",
+    "index.html": "/portfolio-2020/index.html",
+    "static/css/main.d0ff44c8.chunk.css.map": "/portfolio-2020/static/css/main.d0ff44c8.chunk.css.map",
+    "static/js/2.d14466ec.chunk.js.LICENSE.txt": "/portfolio-2020/static/js/2.d14466ec.chunk.js.LICENSE.txt",
+    "static/media/check-icon.50ffbfb7.png": "/portfolio-2020/static/media/check-icon.50ffbfb7.png",
+    "static/media/contact-icon.8c1423e2.webp": "/portfolio-2020/static/media/contact-icon.8c1423e2.webp",
+    "static/media/css.d8d8122b.png": "/portfolio-2020/static/media/css.d8d8122b.png",
+    "static/media/App.css": "/portfolio-2020/static/media/profile-pic.a3182e28.png",
+    "static/media/html.f61e377f.png": "/portfolio-2020/static/media/html.f61e377f.png",
+    "static/media/node.527d385f.jpg": "/portfolio-2020/static/media/node.527d385f.jpg",
+    "static/media/oldPortfolio.ae48a357.png": "/portfolio-2020/static/media/oldPortfolio.ae48a357.png",
+    "static/media/plus.0496a399.png": "/portfolio-2020/static/media/plus.0496a399.png",
+    "static/media/projectOne.dc8cb955.png": "/portfolio-2020/static/media/projectOne.dc8cb955.png",
+    "static/media/projectTwo.a2f79a81.png": "/portfolio-2020/static/media/projectTwo.a2f79a81.png",
+    "static/media/react.ff3f96d9.png": "/portfolio-2020/static/media/react.ff3f96d9.png",
+    "static/media/resume.783e7223.pdf": "/portfolio-2020/static/media/resume.783e7223.pdf",
+    "static/media/resume.a70a5974.png": "/portfolio-2020/static/media/resume.a70a5974.png",
+    "static/media/search-icon.4a1da4a5.png": "/portfolio-2020/static/media/search-icon.4a1da4a5.png",
+    "static/media/uiux.44cb1c51.png": "/portfolio-2020/static/media/uiux.44cb1c51.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6a4d258.js",
+    "static/js/2.d14466ec.chunk.js",
+    "static/css/main.d0ff44c8.chunk.css",
+    "static/js/main.28b40932.chunk.js"
+  ]
+}
