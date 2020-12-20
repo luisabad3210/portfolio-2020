@@ -539,8 +539,7 @@ i {
     height: 10px;
 }
 .comment {
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-radius: 50px;
     background-color: rgb(240, 242, 245);
     border: 1px solid rgb(240, 242, 245);
     color: rgb(112, 114, 118);
