@@ -50,7 +50,7 @@ class App extends Component {
       <div className='App'>
         <Navigation profile={this.state.user}/>
         <Switch>
-          <Route path='/' exact component={profile} />
+          <Route path='/portfolio-2020' exact component={profile} />
           <Route path='/home' component={home}/>
           <Route path='/friends' component={friends}/>
           <Route path='/watch' component={watch}/>
