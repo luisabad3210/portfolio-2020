@@ -46,7 +46,7 @@ class App extends Component {
     const videos = () => {return <Videos profile={this.state.user}/>}
 
   return (
-    <Router>
+    <Router  basename={process.env.PUBLIC_URL}>
       <div className='App'>
         <Navigation profile={this.state.user}/>
         <Switch>
