@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {HashRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Navigation from './components/nav'
 import Profile from './components/pages/profile';
@@ -46,7 +46,7 @@ class App extends Component {
     const videos = () => {return <Videos profile={this.state.user}/>}
 
   return (
-    <Router  basename={process.env.PUBLIC_URL}>
+    <Router>
       <div className='App'>
         <Navigation profile={this.state.user}/>
         <Switch>
