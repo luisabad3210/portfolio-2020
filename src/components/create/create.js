@@ -4,6 +4,7 @@ import NewsFeed from './newsFeed';
 import OldPortfolio from '../images/oldPortfolio.png'
 import ProjectOne from '../images/projectOne.png';
 import ProjectTwo from '../images/projectTwo.png';
+import TodoApp from '../images/todo-app.png'
 
 function createNewsFeed(date, body, comments, likes) {
     return {
@@ -23,6 +24,8 @@ class Post extends Component {
         feeds: [
             createNewsFeed('Tue Feb 04 2020', 'Welcome to my portfolio page,  Before you go on, this page is best viewed on a desktop but also enjoyable on a small device. Feel free to explore around by writing on my portfolio wall and liking and commenting posts. There’s something always being added to this page like new features and projects, so you might see a few glitches here and there lol', [], 0),
             createNewsFeed('Tue Feb 04 2020', 'Click on the image bellow to view projects', [], 0),
+            createNewsFeed('Tue Feb 04 2020', 'Created this cool Todo app', [], 0),
+            createNewsFeed('Mon Jan 25 2021', <a href="https://luisabad3210.github.io/todo" target='_blank' rel="noreferrer"><img src={TodoApp} width='100%' height='220%' alt='' title=''/></a>, [], 0),
             createNewsFeed('Tue Feb 04 2020', 'Checkout my old protfolio bellow', [], 0),
             createNewsFeed('Tue Feb 04 2020', <a href="http://luisabad3210.github.io/facebook/" target='_blank' rel="noreferrer"><img src={OldPortfolio} width='100%' height='220%' alt='' title=''/></a>, [], 0),
             createNewsFeed('Tue Feb 04 2020', 'Checkout my Twitter mockup bellow', [], 0),
