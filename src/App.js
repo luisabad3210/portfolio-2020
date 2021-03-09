@@ -32,6 +32,7 @@ class App extends Component {
       }
     }
   }
+  
 
   render() {
     const home = () => {return <Home />}
